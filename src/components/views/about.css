@@ -1,0 +1,103 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+  }
+  
+  .image img {
+    max-width: 500px;
+    height: auto;
+  }
+  
+  .text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+  /* Media query para pantallas pequeñas (ejemplo: menos de 768px) */
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column; /* Cambia la dirección de los elementos a apilados verticalmente */
+    }
+  
+    .text {
+      padding: 10px; /* Reduce el espacio de relleno en dispositivos más pequeños */
+    }
+  }
+  
+  /* Card.css */
+  .card1 {
+    background-color: #fff; /* Color de fondo de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+  }
+  
+  
+  #idcard {
+    font-size: 24px; /* Tamaño de fuente para el título */
+    color: #333; /* Color del texto del título */
+  }
+  
+  #p1 {
+    font-size: 16px; /* Tamaño de fuente para el párrafo */
+    color: #000000; /* Color del texto del párrafo */
+  }
+  
+  a#comprar {
+    display: inline-block; /* Mostrar como bloque en línea */
+    padding: 10px 20px; /* Espaciado interno del enlace */
+    background-color: #1b3039; /* Color de fondo del enlace */
+    color: #ffffff; /* Color del texto del enlace */
+    text-decoration: none; /* Sin subrayado enlace */
+    border-radius: 5px; /* Bordes redondeados del enlace */
+    transition: background-color 0.3s; /* Transición de color de fondo al pasar el cursor */
+  }
+  
+  a#comprar:hover {
+    background-color: #e23333; /* Cambio de color al pasar el cursor sobre el enlace */
+  }
