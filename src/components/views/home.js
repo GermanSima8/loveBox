@@ -8,15 +8,15 @@ const Home = () => {
         <div>
             <Navbar/>
         <div className="container">
-        <h3 class="titulo-bienvenida">Bienvenido</h3>
+        <h1 class="titulo-bienvenida">Bienvenido a Love Box</h1>
             <div className="content">
                 <div className="image">
                     <img src={imageHome} alt="Imagen de portada" />
                 </div>
                 <div className="text">
-                    <div className="card">
-                        <h1>¡Ilumina tus momentos especiales con nuestras increíbles cajas de regalo con luz!</h1>
-                        <p>
+                    <div className="card1">
+                        <h1 id="idcard">¡Ilumina tus momentos especiales con nuestras increíbles cajas de regalo con luz!</h1>
+                        <p id="p1">
                             Con Love Box tomamos en cuenta lo especial que es para ti expresar tu amor, cariño y gratitud para 
                             alguien especial en tu vida. ¡Por eso, hemos creado "Love Box" cajas de regalo con las luces más 
                             deslumbrantes, vibrantes y emocionantes que jamás hayas logrado ver! Si quieres deslumbrar a tu ser 
