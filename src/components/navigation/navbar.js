@@ -42,10 +42,10 @@ const Navbar = () => {
             &times;
           </a>
           <div className="overlay-content">
-            <a href="#">Inicio</a>
-            <a href="#">Nosotros</a>
-            <a href="#">Productos</a>
-            <a href="#">Contáctanos</a>
+            <a href="/">Inicio</a>
+            <a href="/conocenos">Nosotros</a>
+            <a href="/products">Productos</a>
+            <a href="/contacs">Contáctanos</a>
           </div>
         </div>
       </header>
