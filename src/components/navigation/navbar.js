@@ -1,6 +1,6 @@
 import React from "react";
 import "../navigation/navbar.css";
-import logo from "../img/logo.png"; 
+import logo from "../img/TxtWhite2.png"; 
 
 const Navbar = () => {
 
@@ -13,10 +13,10 @@ const Navbar = () => {
   };
 
   return (
-    <div>
-      <header className="header"> {/* Usa className en lugar de class en React */}
+    <div className="navbar-main">
+      <header className="header"> 
         <div className="logo">
-          <img src={logo} alt="Logo de la marca" /> {/* Usa la variable importada logo */}
+          <img src={logo} alt="Logo" /> 
         </div>
         <nav>
           <ul className="nav-links">

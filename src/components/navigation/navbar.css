@@ -1,16 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Roboto&display=swap');
 
-*{
+.navbar-main{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;
-}
-
-body{
-    background-color: #fff59d;
-    min-width: 400px;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 16px;
 }
 
 .header{
@@ -18,8 +13,10 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 85px;
+    height: 60px;
     padding: 5px 10%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
 }
 
 .header .logo{
@@ -29,7 +26,7 @@ body{
 
 .header .logo img{
     height: 70px;
-    width: auto;
+    width: 230px;
     transition: all 0.3s;
 }
 
@@ -67,7 +64,6 @@ body{
 .header .btn button,
 /**/.header .menu button{
     margin-left: 20px;
-    font-weight: 700;
     color: #1b3039;
     padding: 9px 25px;
     background: #eceff1;
@@ -75,6 +71,8 @@ body{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 15px;
 }
 
 .header .btn button:hover,
