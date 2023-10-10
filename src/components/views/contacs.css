@@ -1,0 +1,107 @@
+/* Estilos comunes para todos los tamaños de pantalla */
+/* Contenedor del formulario */
+.formulario-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Formulario */
+.formulario {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(235, 221, 221, 0.1);
+    background-color: #1b3039;
+    margin: auto; /* Centra el formulario horizontalmente */
+}
+
+#h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+p {
+    font-size: 16px;
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #c90505;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff59d;
+}
+
+/* Estilos para la tarjeta (card) */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 40%;
+}
+
+/* Encabezado de la tarjeta */
+.card h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Párrafo de la tarjeta */
+.card p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Lista desordenada de la tarjeta */
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Elementos de la lista de la tarjeta */
+.card li {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+/* Consulta de medios para pantallas pequeñas */
+@media (max-width: 768px) {
+    /* Ajustar estilos para pantallas pequeñas aquí */
+    .formulario {
+        width: 90%;
+        margin: 0; /* Elimina el margen automático para centrar horizontalmente en pantallas pequeñas */
+    }
+
+    .card {
+        margin: 10px auto; /* Hace que la tarjeta sea más pequeña y la centra horizontalmente */
+    }
+}
